@@ -1,6 +1,6 @@
-import {selector} from "recoil";
+// import {selector} from "recoil";
 import textState from "./Atom";
-// import {selector} from "chromogen";
+import {selector} from "chromogen";
 
 const charCountState = selector({
     key: 'charCountState', // unique ID (with respect to other atoms/selectors)

@@ -6,9 +6,6 @@ import {
 import charCountState from "./Selectors";
 import textState from "./Atom";
 
-// import { ChromogenObserver } from 'chromogen';
-// import * as atoms from "./Atom";
-// import * as selectors from "./Selectors";
 
 function CharacterCounter() {
   return (

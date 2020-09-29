@@ -1,14 +1,14 @@
 import React from 'react';
-import {RecoilRoot} from 'recoil/dist/recoil.production';
-// import { ChromogenObserver } from 'chromogen';
+import {RecoilRoot} from 'recoil';
+import { ChromogenObserver } from 'chromogen';
 import CharacterCounter from "./CharacterCounter";
-// import * as atoms from "./Atom";
-// import * as selectors from "./Selectors";
+import * as atoms from "./Atom";
+import * as selectors from "./Selectors";
 
 function App() {
   return (
     <RecoilRoot>
-      {/* <ChromogenObserver store={[atoms, selectors]}/> */}
+      <ChromogenObserver store={[atoms, selectors]}/>
       <CharacterCounter />
     </RecoilRoot>
   );
